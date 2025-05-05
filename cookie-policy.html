@@ -1,0 +1,67 @@
+# Create the HTML version of the Cookie Policy cookie_policy_html = """
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Policy</title>
+  </head>
+  <body>
+    <h1>Cookie Policy</h1>
+    <p>
+      This website uses cookies to improve your browsing experience and analyze
+      site traffic. By using this website, you consent to the use of cookies as
+      described in this policy.
+    </p>
+
+    <h2>What Are Cookies?</h2>
+    <p>
+      Cookies are small text files that are placed on your device when you visit
+      a website. They allow the website to remember your actions and preferences
+      over time, making your experience more efficient.
+    </p>
+
+    <h2>Google Analytics</h2>
+    <p>
+      We use Google Analytics to collect and analyze information about how
+      visitors use this website. This helps us improve the website's
+      functionality and content. Google Analytics collects data such as:
+    </p>
+    <ul>
+      <li>Your IP address</li>
+      <li>Pages you visit</li>
+      <li>Time spent on the website</li>
+      <li>Referring website addresses</li>
+      <li>Browser type and version</li>
+      <li>Device type</li>
+    </ul>
+    <p>
+      This information is anonymous and used solely for statistical purposes.
+      Google Analytics may place cookies on your device to gather this data. For
+      more information on how Google uses data, please review
+      <a href="https://www.google.com/policies/privacy/" target="_blank"
+        >Google's Privacy Policy</a
+      >.
+    </p>
+
+    <h2>Managing Cookies</h2>
+    <p>
+      You can control the use of cookies in your browser settings. You can
+      choose to block or delete cookies, but please note that some features of
+      the website may not work properly if cookies are disabled.
+    </p>
+
+    <h2>Changes to this Policy</h2>
+    <p>
+      We may update this cookie policy from time to time. Any changes will be
+      posted on this page with an updated revision date.
+    </p>
+
+    <p>
+      If you have any questions about our cookie policy, feel free to contact
+      us.
+    </p>
+  </body>
+</html>
+""" # Save the HTML content to a file file_path = '/mnt/data/cookie_policy.html'
+with open(file_path, 'w') as file: file.write(cookie_policy_html) file_path
